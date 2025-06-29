@@ -31,9 +31,16 @@ namespace MicroservicioPujas.Controllers
         }
 
         [HttpGet("obtenerPujaGanadora/{idSubasta}")]
-        public async Task<IActionResult> RegistrarPuja([FromRoute] Guid idSubasta)
+        public async Task<IActionResult> ConsultarPujaGanadora([FromRoute] Guid idSubasta)
         {
             var resultado = await _mediator.Send(new ConsultarMayorPujaSubastaQuery(idSubasta));
+            return Ok(resultado);
+        }
+
+        [HttpGet("obtenerPujasSubasta/{idSubasta}")]
+        public async Task<IActionResult> ConsultarPujasSubasta([FromRoute] Guid idSubasta)
+        {
+            var resultado = await _mediator.Send(new ConsultarPujasSubastaQuery(idSubasta));
             return Ok(resultado);
         }
     }

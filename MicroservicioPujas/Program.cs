@@ -63,6 +63,7 @@ builder.Services.AddMassTransit(x =>
 {
     x.AddConsumer<PujaRegistradaConsumer>();
     x.AddConsumer<PujasAutomaticasConsumer>();
+    x.AddConsumer<ActualizarMontoSubastaConsumer>();
 
     x.UsingRabbitMq((context, cfg) =>
     {
@@ -79,6 +80,10 @@ builder.Services.AddMassTransit(x =>
         cfg.ReceiveEndpoint("pujaAutomatica-registrada-queue", e =>
         {
             e.ConfigureConsumer<PujasAutomaticasConsumer>(context);
+        });
+        cfg.ReceiveEndpoint("monto-actualizado-queue", e =>
+        {
+            e.ConfigureConsumer<ActualizarMontoSubastaConsumer>(context);
         });
     });
 });

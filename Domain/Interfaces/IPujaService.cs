@@ -19,5 +19,7 @@ namespace Domain.Interfaces
         Task<bool> ExistePujaMongoAsync(Guid idUsuario, Guid idSubasta, decimal monto);
 
         Task<Puja> ObtenerPujaGanadoraSubastaMongoAsync(Guid idSubasta);
+
+        Task<List<Puja>> ObtenerPujasSubastaAsync(Guid idSubasta);
     }
 }
