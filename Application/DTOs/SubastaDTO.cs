@@ -13,6 +13,7 @@ namespace Application.DTOs
         public Guid Id { get; set; }
         public string nombreSubasta { get; set; }
         public string descripcionSubasta { get; set; }
+        [JsonPropertyName("idProducto")]
         public Guid idProductoSubasta { get; set; }
         public DateTime fechaInicioSubasta { get; set; }
         public DateTime fechaFinSubasta { get; set; }

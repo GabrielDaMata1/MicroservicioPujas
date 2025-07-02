@@ -21,13 +21,15 @@ namespace Application.Handler
         private readonly IPujaService _pujaService;
         private readonly IUsuarioService _usuarioService;
         private readonly ISubastaService _subastaService;
+        private readonly IProductoService _productoService;
 
-        public RegistrarPujaHandler(IPujaService pujaService, IPublishEndpoint publishEndpoint, IUsuarioService usuarioService, ISubastaService subastaService)
+        public RegistrarPujaHandler(IPujaService pujaService, IPublishEndpoint publishEndpoint, IUsuarioService usuarioService, ISubastaService subastaService, IProductoService productoService)
         {
             _publishEndpoint = publishEndpoint;
             _pujaService = pujaService;
             _usuarioService = usuarioService;
             _subastaService = subastaService;
+            _productoService = productoService;
         }
 
         public async Task<bool> Handle(RegistrarPujaCommand request, CancellationToken cancellationToken)
@@ -36,6 +38,7 @@ namespace Application.Handler
             try
             {
                 var idUsuario = await _usuarioService.ObtenerUsuarioPorIdAsync(request.pujaDTO.correoUsuario);
+
                 if (idUsuario == Guid.Empty || idUsuario == null)
                     throw new UsuarioNoEncontradoException();
 
@@ -48,9 +51,15 @@ namespace Application.Handler
                     throw new SubastaNoActivaException();
 
                 var montoMayorSubasta = await _pujaService.ObtenerMontoMaximoSubastaMongoAsync(request.pujaDTO.idSubasta);
+
                 var montoIncremento = request.pujaDTO.montoPuja - montoMayorSubasta;
-                Console.WriteLine(montoIncremento);
-               if (montoIncremento < subasta.incrementoMinimoSubasta.incrementoMinimo)
+
+                var producto = await _productoService.ObtenerProductoPorGuid(subasta.idProductoSubasta);
+
+                if (request.pujaDTO.montoPuja < producto.PrecioBaseProducto.precio) 
+                    throw new MontoPujaInvalidoException("Error, el monto de la puja debe ser mayor al monto base del producto subastando");
+
+                if (montoIncremento < subasta.incrementoMinimoSubasta.incrementoMinimo)
                     throw new MontoPujaInvalidoException();
 
 

@@ -61,6 +61,9 @@ namespace Infrastructure.Repositories.MongoDB
                 .SortByDescending(p => p.montoPuja)
                 .FirstOrDefaultAsync();
 
+            if (pujaMongo is null)
+                return null;
+
             var puja = PujaFactory.CrearPujaConId(pujaMongo.Id, pujaMongo.IdUsuario, pujaMongo.idSubasta, pujaMongo.tipoPuja, pujaMongo.montoMáximo, 
                 pujaMongo.montoPuja, pujaMongo.montoPredeterminado);
 
