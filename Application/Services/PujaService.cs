@@ -90,6 +90,19 @@ namespace Application.Services
             }
         }
 
+        public async Task<List<Puja>> ObtenerPujasSubastaUsuarioMongoAsync(Guid idSubasta, Guid idUsuario)
+        {
+            try
+            {
+                var resul = await _pujaMongoRepository.ObtenerPujasSubastaUsuarioAsync(idSubasta, idUsuario);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener las pujas de la subasta en mongoBD {ex.Message}", ex);
+            }
+        }
+
         public async Task<HttpStatusCode> RegistrarPujaMongoAsync(Puja puja)
         {
             try

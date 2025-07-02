@@ -21,5 +21,7 @@ namespace Domain.Interfaces
         Task<Puja> ObtenerPujaGanadoraSubastaMongoAsync(Guid idSubasta);
 
         Task<List<Puja>> ObtenerPujasSubastaAsync(Guid idSubasta);
+
+        Task<List<Puja>> ObtenerPujasSubastaUsuarioMongoAsync(Guid idSubasta, Guid idUsuario);
     }
 }

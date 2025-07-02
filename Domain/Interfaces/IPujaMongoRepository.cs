@@ -22,5 +22,7 @@ namespace Domain.Interfaces
 
         Task<List<Puja>> ObtenerPujasSubastaAsync(Guid idSubasta);
 
+        Task<List<Puja>> ObtenerPujasSubastaUsuarioAsync(Guid idSubasta, Guid idUsuario);
+
     }
 }
