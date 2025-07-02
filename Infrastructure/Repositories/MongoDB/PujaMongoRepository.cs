@@ -108,6 +108,21 @@ namespace Infrastructure.Repositories.MongoDB
             return await _pujaCollection.Find(filtro).AnyAsync();
         }
 
+        public async Task<List<Puja>> ObtenerPujasSubastaUsuarioAsync(Guid idSubasta, Guid idUsuario)
+        {
+            var filtro = Builders<PujaMongo>.Filter.And(
+                    Builders<PujaMongo>.Filter.Eq(p => p.IdUsuario, idUsuario),
+                    Builders<PujaMongo>.Filter.Eq(p => p.idSubasta, idSubasta));
 
+            var mongoPujas = await _pujaCollection.Find(filtro).ToListAsync();
+
+            if (mongoPujas==null)
+                return new List<Puja>();
+
+            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConId(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
+                p.montoMáximo, p.montoPuja, p.montoPredeterminado)).ToList();
+
+            return pujas;
+        }
     }
 }
