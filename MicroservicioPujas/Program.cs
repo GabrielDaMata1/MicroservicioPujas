@@ -11,6 +11,7 @@ using Infrastructure.Repositories.MongoDB;
 using Infrastructure.Repositories.PostgreSQL;
 using Application.Command;
 using Application.External_Services.SignalR;
+using Application.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +46,12 @@ builder.Services.AddHttpClient<SubastaService>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:5003/api/Subastas/");
 });
+
+builder.Services.AddHttpClient<ProductoService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5002/api/Productos/");
+});
+
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(RegistrarPujaCommand).Assembly));
 
@@ -55,6 +62,8 @@ builder.Services.AddScoped<IPujaPostgreSQLRepository, PujaPostgreSQLRepository>(
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ISubastaService, SubastaService>();
 builder.Services.AddScoped<IPujaService, PujaService>();
+builder.Services.AddScoped<IProductoService, ProductoService>();
+
 
 
 

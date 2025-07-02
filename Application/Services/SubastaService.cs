@@ -32,6 +32,7 @@ namespace Application.Services
 
                 var contenido = await response.Content.ReadAsStringAsync();
 
+
                 var dto = JsonSerializer.Deserialize<SubastaDTO>(contenido, new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
