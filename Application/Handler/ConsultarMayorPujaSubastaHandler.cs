@@ -38,7 +38,7 @@ namespace Application.Handler
                 if (subasta == null)
                     throw new SubastaNoEncontradaException();
 
-                if (!subasta.estadoSubasta.estado.Equals("Ended"))
+                if (subasta.estadoSubasta.estado.Equals("Active") || subasta.estadoSubasta.estado.Equals("Deserted"))
                     throw new SubastaNoTerminadaException();
 
                 var pujaGanadoraSubasta = await _pujaService.ObtenerPujaGanadoraSubastaMongoAsync(request.idSubasta);

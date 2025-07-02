@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ConsultarMayorPujaSubastaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwC4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:34:00.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\ProductoDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ProductoDTO.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SubastaService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\SubastaService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
@@ -82,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SubastaDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\SubastaDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\SubastaDTO.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PujaMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\MicroservicioPujas\\Program.cs",
               "RelativeDocumentMoniker": "MicroservicioPujas\\Program.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Producto.cs",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RegistrarPujaHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\RegistrarPujaHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\RegistrarPujaHandler.cs",
