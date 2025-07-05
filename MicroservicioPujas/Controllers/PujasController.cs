@@ -51,5 +51,12 @@ namespace MicroservicioPujas.Controllers
             var resultado = await _mediator.Send(new ConsultarPujasSubastaUsuarioQuery(pujasDto));
             return Ok(resultado);
         }
+
+        [HttpGet("obtenerPujasUsuario/{correo}")]
+        public async Task<IActionResult> ConsultarPujasUsuario([FromRoute] string correo)
+        {
+            var resultado = await _mediator.Send(new ConsultarPujasUsuarioQuery(correo));
+            return Ok(resultado);
+        }
     }
 }

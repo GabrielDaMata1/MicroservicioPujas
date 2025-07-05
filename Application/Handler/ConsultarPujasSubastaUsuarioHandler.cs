@@ -11,7 +11,7 @@ using MediatR;
 
 namespace Application.Handler
 {
-    public class ConsultarPujasSubastaUsuarioHandler : IRequestHandler<ConsultarPujasSubastaUsuarioQuery, List<HistorialPujasDTO>>
+    public class ConsultarPujasSubastaUsuarioHandler : IRequestHandler<ConsultarPujasSubastaUsuarioQuery, List<HistorialPujasSubastaDTO>>
     {
         private readonly IPujaService _pujaService;
         private readonly IUsuarioService _usuarioService;
@@ -22,7 +22,7 @@ namespace Application.Handler
             _usuarioService = usuarioService;
         }
 
-        public async Task<List<HistorialPujasDTO>> Handle(ConsultarPujasSubastaUsuarioQuery request, CancellationToken cancellationToken)
+        public async Task<List<HistorialPujasSubastaDTO>> Handle(ConsultarPujasSubastaUsuarioQuery request, CancellationToken cancellationToken)
         {
 
             try
@@ -33,23 +33,24 @@ namespace Application.Handler
 
                 if (listaPujas == null || !listaPujas.Any())
                 {
-                    return new List<HistorialPujasDTO>();
+                    return new List<HistorialPujasSubastaDTO>();
                 }
-                var historialPujasSubasta = new List<HistorialPujasDTO>();
+                var historialPujasSubasta = new List<HistorialPujasSubastaDTO>();
 
                 foreach (var puja in listaPujas)
                 {
                     var correo = await _usuarioService.ObtenerCorreoPorIdAsync(puja.IdUsuario);
 
 
-                    historialPujasSubasta.Add(new HistorialPujasDTO
+                    historialPujasSubasta.Add(new HistorialPujasSubastaDTO
                     {
                         id = puja.Id,
                         correoUsuario = correo,
                         montoMaximo = puja.MontoMaximo.montoMaximo,
                         montoPredeterminado = puja.MontoPredeterminado.montoPredeterminado,
                         montoPuja = puja.MontoPuja.montoPuja,
-                        tipoPuja = puja.TipoPuja.tipoPuja
+                        tipoPuja = puja.TipoPuja.tipoPuja,
+                        fecha = puja.FechaPuja.fechaPuja,
 
                     });
                 }

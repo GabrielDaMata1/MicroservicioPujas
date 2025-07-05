@@ -31,7 +31,7 @@ namespace Application.Services
                 }
 
                 var contenido = await response.Content.ReadAsStringAsync();
-
+                Console.WriteLine( contenido );
 
                 var dto = JsonSerializer.Deserialize<SubastaDTO>(contenido, new JsonSerializerOptions
                 {

@@ -103,6 +103,32 @@ namespace Application.Services
             }
         }
 
+        public async Task<List<Puja>> ObtenerPujasUsuarioMongoAsync(Guid idUsuario)
+        {
+            try
+            {
+                var resul = await _pujaMongoRepository.ObtenerPujasUsuarioAsync(idUsuario);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener las pujas del usuario en mongoBD {ex.Message}", ex);
+            }
+        }
+
+        public async Task<List<Puja>> ObtenerSubastasPorUsuarioMongoAsync(Guid idUsuario)
+        {
+            try
+            {
+                var resul = await _pujaMongoRepository.ObtenerSubastasPorUsuarioMongoAsync(idUsuario);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener las subastas y pujas del usuario en mongoBD {ex.Message}", ex);
+            }
+        }
+
         public async Task<HttpStatusCode> RegistrarPujaMongoAsync(Puja puja)
         {
             try

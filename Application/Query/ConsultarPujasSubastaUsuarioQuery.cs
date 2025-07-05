@@ -8,7 +8,7 @@ using MediatR;
 
 namespace Application.Query
 {
-    public class ConsultarPujasSubastaUsuarioQuery : IRequest<List<HistorialPujasDTO>>
+    public class ConsultarPujasSubastaUsuarioQuery : IRequest<List<HistorialPujasSubastaDTO>>
     {
         public ConsultarPujasSubastaUsuarioDTO pujasDTO { get; set; }
 

@@ -28,5 +28,16 @@ namespace Domain.Factory
 
             return new Puja(id,idUsuario, idSubasta, montoPujaVO, montoMaximoVO, tipoPujaVO, montoPredeterminadoVO);
         }
+
+        public static Puja CrearPujaConFecha(Guid id, Guid idUsuario, Guid idSubasta, string tipoPuja, decimal montoMaximo, decimal montoPuja, decimal montoPredeterminado, DateTime fecha)
+        {
+            var montoPujaVO = new MontoPujaVO(montoPuja);
+            var montoMaximoVO = new MontoMaximoPujaVO(montoMaximo);
+            var tipoPujaVO = new TipoPujaVO(tipoPuja);
+            var montoPredeterminadoVO = new MontoPredeterminadoPujaVO(montoPredeterminado);
+            var fechaVO = new FechaPujaVO(fecha);
+
+            return new Puja(id, idUsuario, idSubasta, montoPujaVO, montoMaximoVO, tipoPujaVO, montoPredeterminadoVO, fechaVO);
+        }
     }
 }
