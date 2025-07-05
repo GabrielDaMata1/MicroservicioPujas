@@ -119,10 +119,37 @@ namespace Infrastructure.Repositories.MongoDB
             if (mongoPujas==null)
                 return new List<Puja>();
 
-            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConId(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
-                p.montoMáximo, p.montoPuja, p.montoPredeterminado)).ToList();
+            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConFecha(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
+                p.montoMáximo, p.montoPuja, p.montoPredeterminado, p.createdAt)).ToList();
 
             return pujas;
         }
+
+        public async Task<List<Puja>> ObtenerPujasUsuarioAsync(Guid idUsuario)
+        {
+            var filtro = Builders<PujaMongo>.Filter.Eq(p => p.IdUsuario, idUsuario);
+
+            var mongoPujas = await _pujaCollection.Find(filtro).ToListAsync();
+
+            if (mongoPujas == null)
+                return new List<Puja>();
+
+            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConFecha(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
+                p.montoMáximo, p.montoPuja, p.montoPredeterminado, p.createdAt)).ToList();
+
+            return pujas;
+        }
+
+        public async Task<List<Puja>> ObtenerSubastasPorUsuarioMongoAsync(Guid idUsuario)
+        {
+            var filtro = Builders<PujaMongo>.Filter.Eq(p => p.IdUsuario, idUsuario);
+            var pujasMongo = await _pujaCollection.Find(filtro).ToListAsync();
+
+            var pujas = pujasMongo.Select(p => PujaFactory.CrearPujaConFecha(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
+            p.montoMáximo, p.montoPuja, p.montoPredeterminado, p.createdAt)).ToList();
+            return pujas;
+        }
+
+
     }
 }

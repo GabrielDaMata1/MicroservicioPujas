@@ -3,24 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\historialpujasusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\historialpujasusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\consultarpujasusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarpujasusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\pujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\pujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\historialpujassubastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\historialpujassubastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\historialpujasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\historialpujasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\services\\pujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\services\\pujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\domain\\interfaces\\ipujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\domain\\interfaces\\ipujamongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipujamongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\infrastructure\\repositories\\mongodb\\pujamongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\pujamongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\infrastructure\\models\\mongodb\\pujamongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\mongodb\\pujamongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\domain\\entities\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\consultarpujassubastausuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\dtos\\consultarpujassubastausuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\query\\consultarpujassubastausuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\query\\consultarpujassubastausuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\consultarpujassubastausuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarpujassubastausuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\query\\consultarpujasusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\query\\consultarpujasusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1751E7A8-3097-4D51-947E-39FD891444C5}|MicroservicioPujas\\MicroservicioPujas.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\microserviciopujas\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1751E7A8-3097-4D51-947E-39FD891444C5}|MicroservicioPujas\\MicroservicioPujas.csproj|solutionrelative:microserviciopujas\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\domain\\factory\\pujafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|solutionrelative:domain\\factory\\pujafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\domain\\value_objects\\fechapujavo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055115B1-E1BB-4E84-A62B-E3082D6F2CB4}|Domain\\Domain.csproj|solutionrelative:domain\\value_objects\\fechapujavo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarmayorpujasubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarpujahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C74FE94-881F-4729-A7E9-E2B2402B1215}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microserviciopujas\\application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,8 +110,191 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultarPujasSubastaUsuarioQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Query\\ConsultarPujasSubastaUsuarioQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Query\\ConsultarPujasSubastaUsuarioQuery.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Query\\ConsultarPujasSubastaUsuarioQuery.cs",
+              "RelativeToolTip": "Application\\Query\\ConsultarPujasSubastaUsuarioQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:07:38.842Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsultarPujasUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarPujasUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarPujasUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarPujasUsuarioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarPujasUsuarioHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T02:58:23.352Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PujaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\PujaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PujaDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\PujaDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\PujaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:31:06.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistorialPujasUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\HistorialPujasUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasUsuarioDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\HistorialPujasUsuarioDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T00:46:17.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HistorialPujasSubastaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasSubastaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\HistorialPujasSubastaDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasSubastaDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\HistorialPujasSubastaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:54:22.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubastaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\SubastaService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\SubastaService.cs",
+              "RelativeToolTip": "Application\\Services\\SubastaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T01:08:33.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubastaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\SubastaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\SubastaDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\SubastaDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\SubastaDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T01:08:29.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistorialPujasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\HistorialPujasDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\HistorialPujasDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\HistorialPujasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:53:58.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PujaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\PujaService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PujaService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\PujaService.cs",
+              "RelativeToolTip": "Application\\Services\\PujaService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAewH8AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:14:29.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPujaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Interfaces\\IPujaService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPujaService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Interfaces\\IPujaService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPujaService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:14:10.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPujaMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Interfaces\\IPujaMongoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPujaMongoRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Interfaces\\IPujaMongoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPujaMongoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:13:08.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PujaMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAI4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:11:47.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PujaMongo.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Models\\MongoDB\\PujaMongo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\MongoDB\\PujaMongo.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Models\\MongoDB\\PujaMongo.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\MongoDB\\PujaMongo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:10:22.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsultarPujasSubastaUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\ConsultarPujasSubastaUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ConsultarPujasSubastaUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\ConsultarPujasSubastaUsuarioDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ConsultarPujasSubastaUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:06:04.269Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -62,7 +313,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "Puja.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Entities\\Puja.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Puja.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Entities\\Puja.cs",
+              "RelativeToolTip": "Domain\\Entities\\Puja.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:01:36.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultarPujasSubastaUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarPujasSubastaUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarPujasSubastaUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarPujasSubastaUsuarioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarPujasSubastaUsuarioHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:05:24.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsultarPujasUsuarioQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Query\\ConsultarPujasUsuarioQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Query\\ConsultarPujasUsuarioQuery.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Query\\ConsultarPujasUsuarioQuery.cs",
+              "RelativeToolTip": "Application\\Query\\ConsultarPujasUsuarioQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:03:19.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PujasController.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\MicroservicioPujas\\Controllers\\PujasController.cs",
+              "RelativeDocumentMoniker": "MicroservicioPujas\\Controllers\\PujasController.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\MicroservicioPujas\\Controllers\\PujasController.cs",
+              "RelativeToolTip": "MicroservicioPujas\\Controllers\\PujasController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:21:01.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PujaFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Factory\\PujaFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\Factory\\PujaFactory.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Factory\\PujaFactory.cs",
+              "RelativeToolTip": "Domain\\Factory\\PujaFactory.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCcAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:52:54.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FechaPujaVO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Value_Objects\\FechaPujaVO.cs",
+              "RelativeDocumentMoniker": "Domain\\Value_Objects\\FechaPujaVO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Value_Objects\\FechaPujaVO.cs",
+              "RelativeToolTip": "Domain\\Value_Objects\\FechaPujaVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:51:34.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ConsultarMayorPujaSubastaHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
@@ -70,12 +394,11 @@
               "RelativeToolTip": "Application\\Handler\\ConsultarMayorPujaSubastaHandler.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwC4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:34:00.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T17:34:00.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "ProductoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\ProductoDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ProductoDTO.cs",
@@ -87,43 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubastaService.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\SubastaService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Services\\SubastaService.cs",
-              "RelativeToolTip": "Application\\Services\\SubastaService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T01:08:33.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubastaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\SubastaDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\SubastaDTO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\DTOs\\SubastaDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\SubastaDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T01:08:29.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PujaMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\PujaMongoRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwEAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:49:43.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\MicroservicioPujas\\Program.cs",
               "RelativeDocumentMoniker": "MicroservicioPujas\\Program.cs",
@@ -135,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Domain\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Producto.cs",
@@ -147,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "RegistrarPujaHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroservicioPujas\\Application\\Handler\\RegistrarPujaHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\RegistrarPujaHandler.cs",
@@ -155,8 +442,7 @@
               "RelativeToolTip": "Application\\Handler\\RegistrarPujaHandler.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:36:17.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T00:36:17.396Z"
             }
           ]
         },

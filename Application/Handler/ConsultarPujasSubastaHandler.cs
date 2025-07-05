@@ -27,7 +27,7 @@ namespace Application.Handler
         {
 
             try
-            { ;
+            {
 
                 var listaPujas = await _pujaService.ObtenerPujasSubastaAsync(request.idSubasta);
 

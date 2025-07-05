@@ -22,6 +22,8 @@ namespace Domain.Entities
         public TipoPujaVO TipoPuja { get; set; }
 
         public MontoPredeterminadoPujaVO MontoPredeterminado { get; set; }
+
+        public FechaPujaVO FechaPuja { get; set; } 
         public Puja(Guid idUsuario, Guid idSubasta, MontoPujaVO montoPuja, MontoMaximoPujaVO montoMaximo, TipoPujaVO tipoPuja, MontoPredeterminadoPujaVO montoPredeterminado)
         {
             Id = Guid.NewGuid();
@@ -42,6 +44,18 @@ namespace Domain.Entities
             MontoMaximo = montoMaximo;
             TipoPuja = tipoPuja;
             MontoPredeterminado=montoPredeterminado;
+        }
+
+        public Puja(Guid id, Guid idUsuario, Guid idSubasta, MontoPujaVO montoPuja, MontoMaximoPujaVO montoMaximo, TipoPujaVO tipoPuja, MontoPredeterminadoPujaVO montoPredeterminado, FechaPujaVO fechaPuja)
+        {
+            Id = id;
+            IdUsuario = idUsuario;
+            IdSubasta = idSubasta;
+            MontoPuja = montoPuja;
+            MontoMaximo = montoMaximo;
+            TipoPuja = tipoPuja;
+            MontoPredeterminado = montoPredeterminado;
+            FechaPuja = fechaPuja;
         }
     }
 
