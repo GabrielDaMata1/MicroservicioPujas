@@ -49,7 +49,8 @@ namespace Application.Handler
                         montoMaximo = puja.MontoMaximo.montoMaximo,
                         montoPredeterminado = puja.MontoPredeterminado.montoPredeterminado,
                         montoPuja = puja.MontoPuja.montoPuja,
-                        tipoPuja = puja.TipoPuja.tipoPuja
+                        tipoPuja = puja.TipoPuja.tipoPuja,
+                        fecha = puja.FechaPuja.fechaPuja,
 
                     });
                 }

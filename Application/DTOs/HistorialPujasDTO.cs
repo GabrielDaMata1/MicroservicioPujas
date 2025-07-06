@@ -14,5 +14,7 @@ namespace Application.DTOs
         public decimal montoMaximo { get; set; }
         public string tipoPuja { get; set; }
         public decimal montoPredeterminado { get; set; }
+
+        public DateTime fecha { get; set; }
     }
 }
