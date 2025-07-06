@@ -92,8 +92,8 @@ namespace Infrastructure.Repositories.MongoDB
 
             var mongoPujas = await _pujaCollection.Find(filter).ToListAsync();
 
-            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConId(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
-                p.montoMáximo, p.montoPuja, p.montoPredeterminado)).ToList();
+            var pujas = mongoPujas.Select(p => PujaFactory.CrearPujaConFecha(p.Id, p.IdUsuario, p.idSubasta, p.tipoPuja,
+                p.montoMáximo, p.montoPuja, p.montoPredeterminado,p.createdAt)).ToList();
 
             return pujas;
         }
