@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Exception
 {
+    /// <summary>
+    /// Clase Exception que se encarga de manejar los errores producidos al obtener una puja en la base de datos en MongoBD.
+    /// </summary>
     public class FalloAlObtenerPujaException: System.Exception
     {
         public FalloAlObtenerPujaException() : base("Ha ocurrido un error al obtener la puja.") { }

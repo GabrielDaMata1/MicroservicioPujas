@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Exception
 {
+    /// <summary>
+    /// Clase Exception que se encarga de manejar los errores producidos al registrar una puja en las bases de datos (PostgreSQL,MongoBD).
+    /// </summary>
     public class FalloAlRegistrarPujaExceptionException: System.Exception
     {
         public FalloAlRegistrarPujaExceptionException() : base("Ha ocurrido un error al registrar la puja.") { }
