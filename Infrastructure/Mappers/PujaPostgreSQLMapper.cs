@@ -8,8 +8,16 @@ using Infrastructure.Models.PostgreSQL;
 
 namespace Infrastructure.Mappers
 {
+    /// <summary>
+    /// Clase mapper que se encarga de mapear el objeto de tipo Entidad Puja (Dominio) a una entidad en la base de datos en PostgreSQL
+    /// </summary>
     public static class PujaPostgreSQLMapper
     {
+        /// <summary>
+        /// Método que se encarga de mapear una Puja (Entidad) a un modelo en la base de datos en PostgreSQL.
+        /// </summary>
+        /// <param name="puja">Entidad que contiene los valores de la puja registrar</param>
+        /// <returns>Retorna un objeto de tipo PujaPostgreSQL, que corresponde al modelo de historial pagos en la base de datos en PostgreSQL.</returns>
         public static PujaPostgreSQL ToPostgres(this Puja puja)
         {
             return new PujaPostgreSQL
