@@ -29,13 +29,33 @@ namespace Infrastructure.Consumer
         /// Atributo que se encarga de enviar solicitudes (commands/queries) mediante el patrón mediador
         /// </summary>
         private readonly IMediator _mediator;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre las notificaciones en el Microservicio Notificaciones, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly INotificacionService _notificacionService;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre una subasta en el Microservicio Subasta, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly ISubastaService _subastaService;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre el seguimiento de una notificacion cuando una puja automática es finalizada, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly INotificacionTracker _notificacionTracker;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre una subasta en el Microservicio Producto, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly IProductoService _productoService;
 
 
-        public PujasAutomaticasConsumer(IPujaService pujaService, IUsuarioService usuarioService, IMediator mediator)
-        {
+        public PujasAutomaticasConsumer(IPujaService pujaService, IUsuarioService usuarioService, IMediator mediator, INotificacionService notificacionService, ISubastaService subastaService, INotificacionTracker notificacionTracker, IProductoService productoService)
+        {   
             _pujaService = pujaService;
-            _usuarioService= usuarioService;
+            _usuarioService = usuarioService;
             _mediator = mediator;
+            _notificacionService = notificacionService;
+            _subastaService = subastaService;
+            _notificacionTracker = notificacionTracker;
+            _productoService = productoService;
         }
         /// <summary>
         /// Método que se encarga de procesar las pujas automáticas tras el registro de una puja nueva.
@@ -68,8 +88,17 @@ namespace Infrastructure.Consumer
                 //Si el usuario llegó al monto máximo de la puja, , continua al otro elemento de la lista
                 if (nuevoMonto > puja.MontoMaximo.montoMaximo)
                 {
+                    var clave = $"{puja.IdUsuario}:{idSubasta}";
+                    if (_notificacionTracker.YaFueEnviada(puja.IdUsuario.ToString(), idSubasta))
+                        continue;
+                    var subasta = await _subastaService.ObtenerSubastaPorGuid(puja.IdSubasta);
+                    var producto = await _productoService.ObtenerProductoPorGuid(subasta.idProductoSubasta);
                     var correo = await _usuarioService.ObtenerCorreoPorIdAsync(puja.IdUsuario);
+
                     //Notificacion para decir que el usuario llego al limite
+                    await _notificacionService.EnviarCorreoUsuarioPujaAutomaticaFinalizada(correo, subasta.nombreSubasta.Nombre, producto.NombreProducto.Nombre, puja.MontoMaximo.montoMaximo);
+
+                    _notificacionTracker.Registrar(puja.IdUsuario.ToString(), idSubasta);
                     continue;
                 }
                 //Se verifica si existe una puja, si existe continua al otro elemento de la lista 
