@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicioPujas", "MicroservicioPujas\MicroservicioPujas.csproj", "{1751E7A8-3097-4D51-947E-39FD891444C5}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{3C74FE94-881F-4729-A7E9-E2B2402B1215}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMicroservicioPujas", "TestMicroservicioPujas\TestMicroservicioPujas.csproj", "{6D281749-986E-4380-A963-151506AEE252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A05F54-F08E-4E11-8C4E-EC9F4B7EF175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D281749-986E-4380-A963-151506AEE252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D281749-986E-4380-A963-151506AEE252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D281749-986E-4380-A963-151506AEE252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D281749-986E-4380-A963-151506AEE252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

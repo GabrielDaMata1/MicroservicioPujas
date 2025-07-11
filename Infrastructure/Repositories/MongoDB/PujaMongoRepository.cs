@@ -45,7 +45,7 @@ namespace Infrastructure.Repositories.MongoDB
             try
             {
 
-                _pujaCollection.InsertOneAsync(puja.ToMongo());
+                await _pujaCollection.InsertOneAsync(puja.ToMongo());
                 return HttpStatusCode.OK;
             }
             catch (Exception ex)

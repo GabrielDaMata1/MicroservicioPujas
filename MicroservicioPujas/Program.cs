@@ -12,6 +12,7 @@ using Infrastructure.Repositories.PostgreSQL;
 using Application.Command;
 using Application.External_Services.SignalR;
 using Application.Service;
+using Application.Commons;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,14 +57,15 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(RegistrarPujaCommand).Assembly));
 
 builder.Services.AddSignalR();
-
+builder.Services.AddSingleton<INotificacionTracker, NotificacionTracker>();
 builder.Services.AddScoped<IPujaMongoRepository, PujaMongoRepository>();
 builder.Services.AddScoped<IPujaPostgreSQLRepository, PujaPostgreSQLRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ISubastaService, SubastaService>();
 builder.Services.AddScoped<IPujaService, PujaService>();
 builder.Services.AddScoped<IProductoService, ProductoService>();
-
+builder.Services.AddScoped<IProductoService, ProductoService>();
+builder.Services.AddScoped<INotificacionService, NotificacionService>();
 
 
 
